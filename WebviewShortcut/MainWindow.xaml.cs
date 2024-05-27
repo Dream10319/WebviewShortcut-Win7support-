@@ -1,4 +1,6 @@
-﻿using System.Windows;
+﻿using CefSharp;
+using CefSharp.Wpf;
+using System.Windows;
 using System.Windows.Controls;
 
 namespace WebviewShortcut
@@ -11,6 +13,8 @@ namespace WebviewShortcut
         public MainWindow()
         {
             InitializeComponent();
+            CefSettings setting = new CefSettings();
+            Cef.InitializeAsync(setting);
         }
 
         private void Go_Webview(object sender, RoutedEventArgs e)

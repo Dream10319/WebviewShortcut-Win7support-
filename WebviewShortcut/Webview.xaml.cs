@@ -15,7 +15,7 @@ namespace WebviewShortcut
         public Webview(string url, string tag)
         {
             InitializeComponent();
-
+            Cef.GetGlobalCookieManager().DeleteCookies(url);
             var image = new BitmapImage();
             image.BeginInit();
             image.UriSource = new Uri("pack://application:,,,/Resources/loading.gif");
@@ -23,7 +23,20 @@ namespace WebviewShortcut
             ImageBehavior.SetAnimatedSource(loadingImage, image);
 
             Browser.Address = url;
+            GoPage(url, tag);
+        }
 
+
+
+        protected override void OnClosed(EventArgs e)
+        {
+            Browser.GetCookieManager().DeleteCookies("", "");
+            Browser.Dispose();
+            base.OnClosed(e);
+        }
+
+        public void GoPage(string url, string tag)
+        {
             Dispatcher.InvokeAsync(async () =>
             {
                 await Task.Delay(3000); // Delay to ensure all elements are loaded
@@ -390,16 +403,6 @@ namespace WebviewShortcut
                 }
             });
         }
-
-
-
-        protected override void OnClosed(EventArgs e)
-        {
-            Browser.Dispose();
-            Cef.GetGlobalCookieManager().DeleteCookies("", "");
-            base.OnClosed(e);
-        }
-
 
     }
 }
