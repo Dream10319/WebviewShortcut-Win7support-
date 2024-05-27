@@ -17,7 +17,7 @@
             <StackPanel Orientation="Vertical">
                 <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="b1">Store management</Button>
                 <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="b2">Temperarily suspended</Button>
-                <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="b3">Menu discount management</Button>
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="b3">Menu management</Button>
                 <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="b4">Review management</Button>
                 <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="b5">Notice</Button>
                 <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="b6">Order details</Button>

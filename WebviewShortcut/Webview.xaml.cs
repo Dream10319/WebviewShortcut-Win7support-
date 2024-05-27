@@ -38,8 +38,8 @@ namespace WebviewShortcut
                         document.querySelector('input[data-testid=""password""]').value = '{password}';
                         document.querySelector('button.Button__StyledButton-sc-1cxc4dz-0.hlLPsc').click();
                     ";
-                    Browser.ExecuteScriptAsyncWhenPageLoaded(script);
-                    await Task.Delay(2000);
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
                     Browser.Address = "https://self.baemin.com/shops/basic";
                     Browser.Visibility = Visibility.Visible;
                     loadingImage.Visibility = Visibility.Hidden;
@@ -53,8 +53,8 @@ namespace WebviewShortcut
                         document.querySelector('input[data-testid=""password""]').value = '{password}';
                         document.querySelector('button.Button__StyledButton-sc-1cxc4dz-0.hlLPsc').click();
                     ";
-                    Browser.ExecuteScriptAsyncWhenPageLoaded(script);
-                    await Task.Delay(2000);
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
                     Browser.Address = "https://self.baemin.com/shops/suspend";
                     Browser.Visibility = Visibility.Visible;
                     loadingImage.Visibility = Visibility.Hidden;
@@ -68,9 +68,9 @@ namespace WebviewShortcut
                         document.querySelector('input[data-testid=""password""]').value = '{password}';
                         document.querySelector('button.Button__StyledButton-sc-1cxc4dz-0.hlLPsc').click();
                     ";
-                    Browser.ExecuteScriptAsyncWhenPageLoaded(script);
-                    await Task.Delay(2000);
-                    Browser.Address = "https://self.baemin.com/promotion/promotions";
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
+                    Browser.Address = "https://self.baemin.com/menu";
                     Browser.Visibility = Visibility.Visible;
                     loadingImage.Visibility = Visibility.Hidden;
                 }
@@ -83,8 +83,8 @@ namespace WebviewShortcut
                         document.querySelector('input[data-testid=""password""]').value = '{password}';
                         document.querySelector('button.Button__StyledButton-sc-1cxc4dz-0.hlLPsc').click();
                     ";
-                    Browser.ExecuteScriptAsyncWhenPageLoaded(script);
-                    await Task.Delay(2000);
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
                     Browser.Address = "https://self.baemin.com/shops/promotion/reviews";
                     Browser.Visibility = Visibility.Visible;
                     loadingImage.Visibility = Visibility.Hidden;
@@ -98,8 +98,8 @@ namespace WebviewShortcut
                         document.querySelector('input[data-testid=""password""]').value = '{password}';
                         document.querySelector('button.Button__StyledButton-sc-1cxc4dz-0.hlLPsc').click();
                     ";
-                    Browser.ExecuteScriptAsyncWhenPageLoaded(script);
-                    await Task.Delay(2000);
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
                     Browser.Address = "https://self.baemin.com/shops/promotion/reviews/ceo/notice";
                     Browser.Visibility = Visibility.Visible;
                     loadingImage.Visibility = Visibility.Hidden;
@@ -113,8 +113,8 @@ namespace WebviewShortcut
                         document.querySelector('input[data-testid=""password""]').value = '{password}';
                         document.querySelector('button.Button__StyledButton-sc-1cxc4dz-0.hlLPsc').click();
                     ";
-                    Browser.ExecuteScriptAsyncWhenPageLoaded(script);
-                    await Task.Delay(2000);
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
                     Browser.Address = "https://self.baemin.com/orders/history";
                     Browser.Visibility = Visibility.Visible;
                     loadingImage.Visibility = Visibility.Hidden;
@@ -129,8 +129,8 @@ namespace WebviewShortcut
                         document.querySelector('input[name=""password""]').value = '{password}';
                         document.querySelector('button.sc-bczRLJ.claiZC.sc-eCYdqJ.hsiXYt').click();
                     ";
-                    Browser.ExecuteScriptAsyncWhenPageLoaded(script);
-                    await Task.Delay(2000);
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
                     Browser.Address = "https://ceo.yogiyo.co.kr/order-history/list";
                     Browser.Visibility = Visibility.Visible;
                     loadingImage.Visibility = Visibility.Hidden;
@@ -144,8 +144,8 @@ namespace WebviewShortcut
                         document.querySelector('input[name=""password""]').value = '{password}';
                         document.querySelector('button.sc-bczRLJ.claiZC.sc-eCYdqJ.hsiXYt').click();
                     ";
-                    Browser.ExecuteScriptAsyncWhenPageLoaded(script);
-                    await Task.Delay(2000);
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
                     Browser.Address = "https://ceo.yogiyo.co.kr/opening-time";
                     Browser.Visibility = Visibility.Visible;
                     loadingImage.Visibility = Visibility.Hidden;
@@ -159,8 +159,8 @@ namespace WebviewShortcut
                         document.querySelector('input[name=""password""]').value = '{password}';
                         document.querySelector('button.sc-bczRLJ.claiZC.sc-eCYdqJ.hsiXYt').click();
                     ";
-                    Browser.ExecuteScriptAsyncWhenPageLoaded(script);
-                    await Task.Delay(2000);
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
                     Browser.Address = "https://ceo.yogiyo.co.kr/menu/set";
                     Browser.Visibility = Visibility.Visible;
                     loadingImage.Visibility = Visibility.Hidden;
@@ -174,8 +174,8 @@ namespace WebviewShortcut
                         document.querySelector('input[name=""password""]').value = '{password}';
                         document.querySelector('button.sc-bczRLJ.claiZC.sc-eCYdqJ.hsiXYt').click();
                     ";
-                    Browser.ExecuteScriptAsyncWhenPageLoaded(script);
-                    await Task.Delay(2000);
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
                     Browser.Address = "https://ceo.yogiyo.co.kr/soldout/menu";
                     Browser.Visibility = Visibility.Visible;
                     loadingImage.Visibility = Visibility.Hidden;
@@ -189,8 +189,8 @@ namespace WebviewShortcut
                         document.querySelector('input[name=""password""]').value = '{password}';
                         document.querySelector('button.sc-bczRLJ.claiZC.sc-eCYdqJ.hsiXYt').click();
                     ";
-                    Browser.ExecuteScriptAsyncWhenPageLoaded(script);
-                    await Task.Delay(2000);
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
                     Browser.Address = "https://ceo.yogiyo.co.kr/delivery/fee/list";
                     Browser.Visibility = Visibility.Visible;
                     loadingImage.Visibility = Visibility.Hidden;
@@ -211,11 +211,11 @@ namespace WebviewShortcut
                         document.execCommand('delete');
                         document.execCommand('insertText', false, '{password}');
                     ";
-                    Browser.ExecuteScriptAsyncWhenPageLoaded(script);
-                    await Task.Delay(2000);
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
                     script = @"document.querySelector('button.btn.merchant-submit-btn').click();";
-                    Browser.ExecuteScriptAsyncWhenPageLoaded(script);
-                    await Task.Delay(2000);
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
                     Browser.Address = "https://store.coupangeats.com/merchant/management/orders";
                     Browser.Visibility = Visibility.Visible;
                     loadingImage.Visibility = Visibility.Hidden;
@@ -235,11 +235,11 @@ namespace WebviewShortcut
                         document.execCommand('delete');
                         document.execCommand('insertText', false, '{password}');
                     ";
-                    Browser.ExecuteScriptAsyncWhenPageLoaded(script);
-                    await Task.Delay(2000);
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
                     script = @"document.querySelector('button.btn.merchant-submit-btn').click();";
-                    Browser.ExecuteScriptAsyncWhenPageLoaded(script);
-                    await Task.Delay(2000);
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
                     Browser.Address = "https://store.coupangeats.com/merchant/management/settlement";
                     Browser.Visibility = Visibility.Visible;
                     loadingImage.Visibility = Visibility.Hidden;
@@ -259,11 +259,11 @@ namespace WebviewShortcut
                         document.execCommand('delete');
                         document.execCommand('insertText', false, '{password}');
                     ";
-                    Browser.ExecuteScriptAsyncWhenPageLoaded(script);
-                    await Task.Delay(2000);
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
                     script = @"document.querySelector('button.btn.merchant-submit-btn').click();";
-                    Browser.ExecuteScriptAsyncWhenPageLoaded(script);
-                    await Task.Delay(2000);
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
                     Browser.Address = "https://advertising.coupangeats.com/";
                     Browser.Visibility = Visibility.Visible;
                     loadingImage.Visibility = Visibility.Hidden;
@@ -283,11 +283,11 @@ namespace WebviewShortcut
                         document.execCommand('delete');
                         document.execCommand('insertText', false, '{password}');
                     ";
-                    Browser.ExecuteScriptAsyncWhenPageLoaded(script);
-                    await Task.Delay(2000);
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
                     script = @"document.querySelector('button.btn.merchant-submit-btn').click();";
-                    Browser.ExecuteScriptAsyncWhenPageLoaded(script);
-                    await Task.Delay(2000);
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
                     Browser.Address = "https://store.coupangeats.com/merchant/management/coupons/recommendation";
                     Browser.Visibility = Visibility.Visible;
                     loadingImage.Visibility = Visibility.Hidden;
@@ -307,11 +307,11 @@ namespace WebviewShortcut
                         document.execCommand('delete');
                         document.execCommand('insertText', false, '{password}');
                     ";
-                    Browser.ExecuteScriptAsyncWhenPageLoaded(script);
-                    await Task.Delay(2000);
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
                     script = @"document.querySelector('button.btn.merchant-submit-btn').click();";
-                    Browser.ExecuteScriptAsyncWhenPageLoaded(script);
-                    await Task.Delay(2000);
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
                     Browser.Address = "https://store.coupangeats.com/merchant/management/operation-hours/information";
                     Browser.Visibility = Visibility.Visible;
                     loadingImage.Visibility = Visibility.Hidden;
@@ -331,11 +331,11 @@ namespace WebviewShortcut
                         document.execCommand('delete');
                         document.execCommand('insertText', false, '{password}');
                     ";
-                    Browser.ExecuteScriptAsyncWhenPageLoaded(script);
-                    await Task.Delay(2000);
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
                     script = @"document.querySelector('button.btn.merchant-submit-btn').click();";
-                    Browser.ExecuteScriptAsyncWhenPageLoaded(script);
-                    await Task.Delay(2000);
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
                     Browser.Address = "https://store.coupangeats.com/merchant/management/stores/";
                     Browser.Visibility = Visibility.Visible;
                     loadingImage.Visibility = Visibility.Hidden;
@@ -355,11 +355,11 @@ namespace WebviewShortcut
                         document.execCommand('delete');
                         document.execCommand('insertText', false, '{password}');
                     ";
-                    Browser.ExecuteScriptAsyncWhenPageLoaded(script);
-                    await Task.Delay(2000);
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
                     script = @"document.querySelector('button.btn.merchant-submit-btn').click();";
-                    Browser.ExecuteScriptAsyncWhenPageLoaded(script);
-                    await Task.Delay(2000);
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
                     Browser.Address = "https://store.coupangeats.com/merchant/management/menu/";
                     Browser.Visibility = Visibility.Visible;
                     loadingImage.Visibility = Visibility.Hidden;
@@ -379,11 +379,11 @@ namespace WebviewShortcut
                         document.execCommand('delete');
                         document.execCommand('insertText', false, '{password}');
                     ";
-                    Browser.ExecuteScriptAsyncWhenPageLoaded(script);
-                    await Task.Delay(2000);
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
                     script = @"document.querySelector('button.btn.merchant-submit-btn').click();";
-                    Browser.ExecuteScriptAsyncWhenPageLoaded(script);
-                    await Task.Delay(2000);
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
                     Browser.Address = "https://store.coupangeats.com/merchant/management/reviews";
                     Browser.Visibility = Visibility.Visible;
                     loadingImage.Visibility = Visibility.Hidden;
@@ -399,5 +399,7 @@ namespace WebviewShortcut
             Cef.GetGlobalCookieManager().DeleteCookies("", "");
             base.OnClosed(e);
         }
+
+
     }
 }

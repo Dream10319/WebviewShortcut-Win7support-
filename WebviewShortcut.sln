@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebviewShortcut", "WebviewShortcut\WebviewShortcut.csproj", "{7A59DBA7-98E0-4C21-9544-C4D6D648ACA5}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WebviewShortcutSetup", "WebviewShortcutSetup\WebviewShortcutSetup.vdproj", "{1A02E197-A329-4C7F-B90D-CCDA54D4631A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7A59DBA7-98E0-4C21-9544-C4D6D648ACA5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7A59DBA7-98E0-4C21-9544-C4D6D648ACA5}.Release|x86.ActiveCfg = Release|x86
 		{7A59DBA7-98E0-4C21-9544-C4D6D648ACA5}.Release|x86.Build.0 = Release|x86
+		{1A02E197-A329-4C7F-B90D-CCDA54D4631A}.Debug|Any CPU.ActiveCfg = Debug
+		{1A02E197-A329-4C7F-B90D-CCDA54D4631A}.Debug|x86.ActiveCfg = Debug
+		{1A02E197-A329-4C7F-B90D-CCDA54D4631A}.Release|Any CPU.ActiveCfg = Release
+		{1A02E197-A329-4C7F-B90D-CCDA54D4631A}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
