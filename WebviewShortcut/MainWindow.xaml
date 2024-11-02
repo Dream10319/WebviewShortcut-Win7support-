@@ -12,6 +12,7 @@
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         <GroupBox Grid.Column="0" Header="Baemin" Margin="5">
             <StackPanel Orientation="Vertical">
@@ -42,6 +43,16 @@
                 <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="c6">Store notice management</Button>
                 <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="c7">Menu management</Button>
                 <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="c8">Review management</Button>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Grid.Column="3" Header="Kdilly" Margin="5">
+            <StackPanel Orientation="Vertical">
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="k1">Order List</Button>
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="k2">Review management</Button>
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="k3">Delivery Notice</Button>
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="k4">Menu management</Button>
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="k5">Out of stock menu</Button>
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="k6">Store management</Button>
             </StackPanel>
         </GroupBox>
     </Grid>

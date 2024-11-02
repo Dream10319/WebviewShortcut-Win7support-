@@ -120,6 +120,37 @@ namespace WebviewShortcut
                 url = "https://store.coupangeats.com/merchant/login";
                 tag = "c8";
             }
+            //Kdilly
+            if (btn.Tag.ToString() == "k1")
+            {
+                url = "https://shop.kdilly.co.kr/login";
+                tag = "k1";
+            }
+            if (btn.Tag.ToString() == "k2")
+            {
+                url = "https://shop.kdilly.co.kr/login";
+                tag = "k2";
+            }
+            if (btn.Tag.ToString() == "k3")
+            {
+                url = "https://shop.kdilly.co.kr/login";
+                tag = "k3";
+            }
+            if (btn.Tag.ToString() == "k4")
+            {
+                url = "https://shop.kdilly.co.kr/login";
+                tag = "k4";
+            }
+            if (btn.Tag.ToString() == "k5")
+            {
+                url = "https://shop.kdilly.co.kr/login";
+                tag = "k5";
+            }
+            if (btn.Tag.ToString() == "k6")
+            {
+                url = "https://shop.kdilly.co.kr/login";
+                tag = "k6";
+            }
             Webview webview = new Webview(url, tag);
             webview.ShowDialog();
         }

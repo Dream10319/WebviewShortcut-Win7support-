@@ -401,6 +401,96 @@ namespace WebviewShortcut
                     Browser.Visibility = Visibility.Visible;
                     loadingImage.Visibility = Visibility.Hidden;
                 }
+                if (tag == "k1")
+                {
+                    string username = "4830302470";
+                    string password = "jbk818181";
+                    script = $@"
+                        document.querySelector('input[name=""id""]').value = '{username}';
+                        document.querySelector('input[name=""password""]').value = '{password}';
+                        document.querySelector(""#wrap > div > form > div.submit-area > div > button"").click();
+                    ";
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
+                    Browser.Address = "https://shop.kdilly.co.kr/store/order/list";
+                    Browser.Visibility = Visibility.Visible;
+                    loadingImage.Visibility = Visibility.Hidden;
+                }
+                if (tag == "k2")
+                {
+                    string username = "4830302470";
+                    string password = "jbk818181";
+                    script = $@"
+                        document.querySelector('input[name=""id""]').value = '{username}';
+                        document.querySelector('input[name=""password""]').value = '{password}';
+                        document.querySelector(""#wrap > div > form > div.submit-area > div > button"").click();
+                    ";
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
+                    Browser.Address = "https://shop.kdilly.co.kr/store/board/review";
+                    Browser.Visibility = Visibility.Visible;
+                    loadingImage.Visibility = Visibility.Hidden;
+                }
+                if (tag == "k3")
+                {
+                    string username = "4830302470";
+                    string password = "jbk818181";
+                    script = $@"
+                        document.querySelector('input[name=""id""]').value = '{username}';
+                        document.querySelector('input[name=""password""]').value = '{password}';
+                        document.querySelector(""#wrap > div > form > div.submit-area > div > button"").click();
+                    ";
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
+                    Browser.Address = "https://shop.kdilly.co.kr/store/board/info";
+                    Browser.Visibility = Visibility.Visible;
+                    loadingImage.Visibility = Visibility.Hidden;
+                }
+                if (tag == "k4")
+                {
+                    string username = "4830302470";
+                    string password = "jbk818181";
+                    script = $@"
+                        document.querySelector('input[name=""id""]').value = '{username}';
+                        document.querySelector('input[name=""password""]').value = '{password}';
+                        document.querySelector(""#wrap > div > form > div.submit-area > div > button"").click();
+                    ";
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
+                    Browser.Address = "https://shop.kdilly.co.kr/store/menu/menu";
+                    Browser.Visibility = Visibility.Visible;
+                    loadingImage.Visibility = Visibility.Hidden;
+                }
+                if (tag == "k5")
+                {
+                    string username = "4830302470";
+                    string password = "jbk818181";
+                    script = $@"
+                        document.querySelector('input[name=""id""]').value = '{username}';
+                        document.querySelector('input[name=""password""]').value = '{password}';
+                        document.querySelector(""#wrap > div > form > div.submit-area > div > button"").click();
+                    ";
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
+                    Browser.Address = "https://shop.kdilly.co.kr/store/menu/soldout";
+                    Browser.Visibility = Visibility.Visible;
+                    loadingImage.Visibility = Visibility.Hidden;
+                }
+                if (tag == "k6")
+                {
+                    string username = "4830302470";
+                    string password = "jbk818181";
+                    script = $@"
+                        document.querySelector('input[name=""id""]').value = '{username}';
+                        document.querySelector('input[name=""password""]').value = '{password}';
+                        document.querySelector(""#wrap > div > form > div.submit-area > div > button"").click();
+                    ";
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(1000);
+                    Browser.Address = "https://shop.kdilly.co.kr/store/store/base";
+                    Browser.Visibility = Visibility.Visible;
+                    loadingImage.Visibility = Visibility.Hidden;
+                }
             });
         }
 
